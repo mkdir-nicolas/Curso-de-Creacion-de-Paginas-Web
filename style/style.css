@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero {
+    background: linear-gradient(314deg, #0b386c, #a679e4);
+    background-size: 400% 400%;
+    height: 100vh;
+    color: #f2f2f2;
+    -webkit-animation: AnimationName 22s ease infinite;
+    -moz-animation: AnimationName 22s ease infinite;
+    animation: AnimationName 22s ease infinite;
+}
+
+#hero a{
+    color: #b3b3b3
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.informacion-contenedor{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.informacion-contenedor p{
+    margin-top: 10px;
+}
+
+/*------------------------HEADER------------------------*/
+header{
+    display: flex;
+    padding: 10px 50px;
+    background: rgba(253, 255, 253, 0.041);
+}
+header ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+
+}
+
+header ul li a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*------------------------MAIN------------------------*/
+
+main{
+    padding: 10%;
+}
+
+main .socials-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    list-style: none;
+}
+
+main .socials-icons li{
+    margin-left: 2%;
+}
+
+main .socials-icons .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .socials-icons #linkedin {
+    background: #0077b0 ;
+}
+
+main .socials-icons #github{
+    background: #23272d;
+}
+main .socials-icons #youtube{
+    background: #f70000;
+}
+main .socials-icons #platzi{
+    background: #121f3d;
+}
+main .socials-icons #twitter{
+    background: #1da1f2;
+}
